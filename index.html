@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Ejercicio STAR WARS</title>
-
+<link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://i.postimg.cc/PfQR2RNx/cloneold-87096-64x64.png" />
   </head>
   <body>
@@ -17,7 +17,7 @@
     <h2>El imperio</h2>
     <br />
     <ul>
-      <li>Lider: Darth Vader</li>
+      <li class="malos" id="vader">Lider: Darth Vader</li>
 
       <img
         src="https://elastic-khorana-29f1fb.netlify.app/darth_vader.png"
@@ -26,7 +26,7 @@
         height="500px"
       /><br />
 
-      <li> Tropa principal: StormTroopers</li>
+      <li class="malos"> Tropa principal: StormTroopers</li>
       <br />
 
       <img
@@ -37,10 +37,10 @@
       /><br />
 
       <ul>
-        <li class="apoyo">
+        <li class="apoyo malos">
           Unidades de apoyo:
 
-          <li class="subtitulos_imperio">Caminante</li>
+          <li class="subtitulos_imperio malos">Caminante</li>
 
           <img
             src="https://elastic-khorana-29f1fb.netlify.app/caminante.png"
@@ -49,7 +49,7 @@
             height="400px"
           /><br /><br />
 
-          <li>Tie Fighter</li>
+          <li class="malos">Tie Fighter</li>
 
           <img
             src="http://vignette1.wikia.nocookie.net/starwars/images/9/92/TIEfighter2-Fathead.png/revision/latest?cb=20150309055216"
@@ -67,7 +67,7 @@
     <br />
 <ul>
 
-    <li> Lider: Luke Skywalker</li>
+    <li class="buenos" id="luke"> Lider: Luke Skywalker</li>
     <br />
 
     <img
@@ -78,10 +78,10 @@
     />
     <br />
 
-    <li>Droides</li>
+    <li class="buenos">Droides</li>
     <br />
 
-    <div >
+    <div class="droides" >
       <img src="https://elastic-khorana-29f1fb.netlify.app/r2d2.png" alt="r2d2" width="400px" height="500px" />
 
       <img src="https://elastic-khorana-29f1fb.netlify.app/c3po.png" alt="c3po" width="400px" height="700px" />
@@ -92,12 +92,12 @@
 <ul>
 
 
-    <li class="apoyo">
+    <li class="apoyo buenos">
       Unidades de apoyo:
 
       <hr />
 
-      <li>Tanque</li>
+      <li class="buenos">Tanque</li>
       <img
         src="http://vignette2.wikia.nocookie.net/starwars/images/f/f1/T3-B.jpg/revision/latest?cb=20050709081448"
         alt="Tanque"
@@ -106,7 +106,7 @@
       />
       <br />
 
-      <li>Halcon Milenario</li>
+      <li class="buenos">Halcon Milenario</li>
       <img
         src="https://elastic-khorana-29f1fb.netlify.app/halcon_milenario.png"
         alt="halcon_milenario"
